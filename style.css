@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-image: url(images/bg-image.jpg);
+    background-size: cover;
+}
+
+.wrapper{
+    background: rgb(31, 30, 30);
+    height: 95vh;
+    width: 40%;
+    border: 4px solid grey;
+    border-radius: 10%;
+    text-align: center;
+
+}
+
+
+h1 {
+    
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.num{
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+    margin-bottom: 10px;
+}
+
+.num h2{
+    display: flex;
+    border: 4px solid blue;
+    border-radius: 50%;
+    padding:80px ;
+}
+
+#increment-btn {
+    background: blue;
+}
+#increment-btn:active{
+    opacity: 0.85;
+}
+#save-btn {
+    background: darkgreen;
+}
+
+#save-btn:active{
+    opacity: 0.85;
+}
+
+#save-el{
+    color: white;
+}
