@@ -5,16 +5,20 @@ body {
     font-family: sans-serif;
     font-weight: bold;
     text-align: center;
-    background-image: url(images/bg-image.jpg);
+    background: url(images/bg_image.jpg);
     background-size: cover;
 }
 
 .wrapper{
-    background: rgb(31, 30, 30);
+    background: rgba(205, 69, 191, 0.52);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border: 1px solid rgba(205, 69, 191, 0.84);
     height: 95vh;
-    width: 40%;
-    border: 4px solid grey;
-    border-radius: 10%;
+    width: 90%;
+    /* border-radius: 10%; */
     text-align: center;
 
 }
@@ -27,7 +31,6 @@ h1 {
 
 h2 {
     font-size: 50px;
-    margin-top: 0;
     margin-bottom: 20px;
     color: rgb(255, 255, 255);
 }
@@ -45,25 +48,26 @@ button {
 .num{
     display: flex;
     justify-content: center;
-    margin-top: 25%;
+    margin-top: 8%;
     margin-bottom: 10px;
 }
 
 .num h2{
     display: flex;
-    border: 4px solid blue;
+    border: 10px solid rgb(212, 23, 193);
     border-radius: 50%;
     padding:80px ;
+    background: rgba(205, 69, 191, 0.84);
 }
 
 #increment-btn {
-    background: blue;
+    background: rgb(212, 23, 193);
 }
 #increment-btn:active{
     opacity: 0.85;
 }
 #save-btn {
-    background: darkgreen;
+    background: rgb(212, 23, 193);
 }
 
 #save-btn:active{
